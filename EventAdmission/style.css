@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Hind:wght@300&family=Montserrat:wght@200&display=swap');
+
+
+body {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
+    background-color: floralwhite;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
+}
+
+.container {
+    border: 3px solid black;
+    height: 500px;
+    width: 1000px;
+    margin: 220px;
+    padding: 20px;
+}
+
+.container-inside {
+    display: grid;
+    justify-content: center;
+    margin: -10px;
+
+}
+
+.parent {
+    display: grid;
+    justify-content: end;
+    align-items: center;
+    height: 300px;
+    border: 2px solid black;
+    padding: 15px;
+    width: 800px;
+
+}
+
+.heading {
+    display: grid;
+    justify-content: center;
+}
+
+.box-1 {
+    display: flex;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 90px;
+    height: 220px;
+    width: 190px;
+    border: 2px solid black;
+}
+
+.boxinner {
+    display: grid;
+    height: 130px;
+    width: 110px;
+    margin: 40px;
+    border: 2px solid black;
+    border-radius: 100px;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-family: 'Caveat', cursive;
+}
+
+.Button {
+    display: flex;
+    gap: 10px;
+}
+
+p {
+    font-size: 20px;
+}

@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap');
+
+body {
+    background-color: #cad2c5;
+    font-family: 'Hind',
+        sans-serif;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+}
+
+.logo {
+    display: grid;
+    font-size: 40px;
+    margin-left: 10px;
+    align-self: center;
+    color: white;
+}
+
+.Heading {
+    display: grid;
+    margin-left: 50%;
+    font-size: 20px;
+    color: white;
+}
+
+.search {
+    display: grid;
+    margin-left: -430px;
+    align-items: center;
+    font-size: 22px;
+    color: #868686;
+}
+
+.container {
+    display: flex;
+    background-color: #2f3d46;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin: 50px;
+    height: 300px;
+    width: 90%;
+    row-gap: 50px;
+    column-gap: 50px;
+}
+
+.child {
+    background-color: #353535;
+    display: grid;
+    justify-content: center;
+}
+
+.leftbox {
+    grid-row: 1/6;
+    border-radius: 30px;
+}
+
+.searchbox {
+    display: grid;
+    grid-column: span 3;
+    height: 60px;
+    width: 900px;
+    margin-left: 20%;
+    border-radius: 10px;
+}
+
+.bottombox {
+    display: grid;
+    grid-column: span 3;
+    width: 1300px;
+    border-radius: 6%;
+}
+
+.smbox1,
+.smbox2,
+.smbox3 {
+    height: 200px;
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 6%;
+}
+
+.bottombox {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+@media (min-width:801px) and (max-width:1200px) {
+    body {
+        background-color: #cad2c5;
+        font-family: 'Hind', sans-serif;
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+    }
+
+    .logo {
+        display: grid;
+        font-size: 40px;
+        margin-left: 10px;
+        align-self: center;
+        color: white;
+    }
+
+    .Heading {
+        display: grid;
+        margin-left: 50%;
+        font-size: 20px;
+        color: white;
+    }
+
+    .container {
+        display: flex;
+        width: 100%;
+        background-color: #2f3d46;
+    }
+
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+        margin: 50px;
+        height: 300px;
+        width: 90%;
+        row-gap: 50px;
+        column-gap: 50px;
+    }
+
+    .child {
+        background-color: #353535;
+        display: grid;
+        justify-content: center;
+    }
+
+    .leftbox {
+        grid-row: 1/6;
+        border-radius: 30px;
+    }
+
+    .searchbox {
+        display: grid;
+        grid-column: span 3;
+        height: 60px;
+        width: 900px;
+        margin-left: 20%;
+        border-radius: 10px;
+    }
+
+    .bottombox {
+        display: grid;
+        grid-column: span 3;
+        width: 1300px;
+        border-radius: 6%;
+    }
+
+    .smbox1,
+    .smbox2,
+    .smbox3 {
+        height: 200px;
+        width: 300px;
+        margin-top: 20px;
+        border-radius: 6%;
+    }
+
+    .bottombox {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        height: 250px;
+        border-radius: 15px;
+    }
+}
+
+@media (max-width: 800px) {
+    body {
+        display: grid;
+        width: 10vh;
+    }
+
+    .child {
+        width: 80%;
+        margin-top: 30px;
+    }
+
+    .smboxy {
+        height: 100px;
+        width: 100px;
+    }
+
+    .bottombox {
+        height: 200px;
+        width: 430px;
+    }
+
+    .searchbox {
+        height: 40px;
+        margin-left: 20px;
+    }
+
+    .search {
+        display: grid;
+        margin-left: -160px;
+        align-items: center;
+        font-size: 18px;
+        color: #868686;
+    }
+
+    .leftbox {
+        height: 500px;
+        width: 200px;
+    }
+
+    .Heading {
+        font-size: 15px;
+        margin-left: 320px;
+    }
+
+    .logo {
+        font-size: 25px;
+    }
+
+    @media(min-width:380px) and (max-width:400px) {
+        body {
+            display: grid;
+            width: 20vh;
+        }
+
+        .smboxy {
+            display: grid;
+            grid-column: span 2;
+            width: 200px;
+            margin-top: -12px;
+
+        }
+
+        .leftbox {
+            height: 800px;
+            width: 200px;
+        }
+
+        .logo {
+            display: grid;
+            font-size: 40px;
+            margin-left: 10px;
+            align-items: center;
+            color: white;
+        }
+
+    }
+}
